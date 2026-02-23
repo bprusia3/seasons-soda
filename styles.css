@@ -1,0 +1,95 @@
+body{
+    background-color: var(--background-orange);
+}
+
+:root{
+    --background-orange: rgb(240, 152, 86);
+    --dark-orange:rgb(250, 121, 0);
+    --light-blue:rgb(0, 191, 255);
+}
+
+.kavoon-regular {
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.top-bar {
+    background-color: var(--light-blue); 
+    position: absolute; 
+    top: 25px;
+    left: 270px;
+    width: 40px;
+    height: 10px;      
+    
+}
+
+.middle-bar {
+     background-color: var(--light-blue); 
+    position: absolute; 
+    top: 40px;
+    left: 270px;
+    width: 40px;
+    height: 10px;  
+}
+
+.low-bar {
+     background-color: var(--light-blue); 
+    position: absolute; 
+    top: 55px;
+    left: 270px;
+    width: 40px;
+    height: 10px;  
+}
+
+img{
+    width: 70px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.colored-bar {
+  height: 75px;          
+  width: 25%;           
+  background-color: var(--dark-orange); 
+  margin: 0;             
+  padding: 0;            
+}
+
+.main-picture {
+    width: 175px;
+ margin-top: 15px;
+  margin-left: 65px;
+}
+
+.blue-bar {
+     height: 250px;          
+  width: 25%;           
+  background-color: var(--light-blue); 
+  margin: 0;             
+  padding: 0;        
+}
+
+h1{
+    text-align: center;
+    font-family: "kavoon" , serif;
+    color: white;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: "kavoon" , serif;
+    color: white;
+    padding-top: 10px;
+}
+
+.click-bar {
+ height: 75px;          
+  width: 75%;           
+  background-color: var(--dark-orange); 
+  margin: 37px;             
+  padding: 0;
+     
+}
