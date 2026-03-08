@@ -1,5 +1,7 @@
-body{
+main{
     background-color: var(--background-orange);
+    width: 316px;
+    
 }
 
 :root{
@@ -42,6 +44,7 @@ body{
     height: 10px;  
 }
 
+
 img{
     width: 70px;
     margin-left: 15px;
@@ -50,7 +53,7 @@ img{
 
 .colored-bar {
   height: 75px;          
-  width: 25%;           
+  width: 316px;           
   background-color: var(--dark-orange); 
   margin: 0;             
   padding: 0;            
@@ -64,7 +67,7 @@ img{
 
 .blue-bar {
      height: 250px;          
-  width: 25%;           
+  width: 316px;           
   background-color: var(--light-blue); 
   margin: 0;             
   padding: 0;        
