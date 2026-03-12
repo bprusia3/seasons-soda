@@ -1,6 +1,6 @@
 main{
     background-color: var(--background-orange);
-    width: 316px;
+    width: 100%;
     
 }
 
@@ -16,11 +16,13 @@ main{
   font-style: normal;
 }
 
+
+
 .top-bar {
     background-color: var(--light-blue); 
-    position: absolute; 
-    top: 25px;
-    left: 270px;
+    position:absolute; 
+    top: 4%;
+    left: 85%;
     width: 40px;
     height: 10px;      
     
@@ -28,20 +30,20 @@ main{
 
 .middle-bar {
      background-color: var(--light-blue); 
-    position: absolute; 
-    top: 40px;
-    left: 270px;
+    position:absolute; 
+    top: 7%;
+    left: 85%;
     width: 40px;
-    height: 10px;  
+    height: 10px;     
 }
 
 .low-bar {
      background-color: var(--light-blue); 
-    position: absolute; 
-    top: 55px;
-    left: 270px;
+   position:absolute; 
+    top: 10%;
+    left: 85%;
     width: 40px;
-    height: 10px;  
+    height: 10px;     
 }
 
 
@@ -53,46 +55,54 @@ img{
 
 .colored-bar {
   height: 75px;          
-  width: 316px;           
+  width: 100%;           
   background-color: var(--dark-orange); 
   margin: 0;             
   padding: 0;            
 }
 
 .main-picture {
-    width: 175px;
- margin-top: 15px;
-  margin-left: 65px;
+    width: 250px;
+ margin-top: 2%;
+  margin-left: 39%;
 }
 
 .blue-bar {
-     height: 250px;          
-  width: 316px;           
+     height: 400px;          
+  width: 100%;           
   background-color: var(--light-blue); 
-  margin: 0;             
-  padding: 0;        
 }
 
 h1{
     text-align: center;
     font-family: "kavoon" , serif;
     color: white;
-    padding-top: 25px;
-    font-size: 30px;
+    padding-top: 2%;
+    font-size: 300%;
 }
 
 h2{
     text-align: center;
     font-family: "kavoon" , serif;
     color: white;
-    padding-top: 10px;
+    font-size: 200%;
 }
 
 .click-bar {
- height: 75px;          
-  width: 75%;           
+ height: 35%;          
+  width: 35%;           
   background-color: var(--dark-orange); 
-  margin: 37px;             
-  padding: 0;
-     
+ margin-left: 31%;     
+ padding-top: .2%;
+ padding-bottom: .2%;
+  
 }
+
+.click-bar :hover{
+    transform: scale(1.3);
+}
+
+img:hover{
+    transform: scale(1.3);
+}
+
